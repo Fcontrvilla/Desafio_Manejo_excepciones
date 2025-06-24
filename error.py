@@ -18,4 +18,4 @@ mensaje y/o dimension y/o maximo."""
             return super().__str__(Exception)
         
         else:
-            return f"se ingresó {self.mensaje}, {self.dimension}, {self.maximo}"
+            return f" {self.mensaje}, Dimension :{self.dimension}, Max permitido: {self.maximo}"
